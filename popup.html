@@ -1,0 +1,41 @@
+<!-- popup.html -->
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>To-Do List</title>
+    <style>
+      body {
+        width: 200px;
+        padding: 10px;
+      }
+
+      input {
+        margin-bottom: 5px;
+      }
+
+      .task {
+        margin-bottom: 5px;
+      }
+
+      .completed {
+        text-decoration: line-through;
+      }
+
+      #timer {
+        margin-top: 10px;
+      }
+    </style>
+    <script src="popup.js"></script>
+  </head>
+  <body>
+    <h3>To-Do List</h3>
+    <input type="text" id="taskInput" placeholder="Enter task" />
+    <button id="addButton">Add Task</button>
+
+    <div id="taskList"></div>
+
+    <div id="timer">30:00</div>
+  </body>
+</html>
+
